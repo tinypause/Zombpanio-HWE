@@ -640,7 +640,7 @@
     "//": "random crud in random stuff.",
     "subtype": "distribution",
     "entries": [ { "group": "trash", "count": [ 1, 5 ], "prob": 100 },
-                 { "group": "trash_forest", "count": [ 1, 1 ], "prob": 10 } 
+                 { "group": "trash_forest", "count": [ 1, 1 ], "prob": 10 },
                  { "group": "office_mess", "count": [ 1, 1 ], "prob": 25 },
                  { "group": "preserved_food", "count": [ 1, 1 ], "prob": 1 }
                  { "group": "cannedfood", "count": [1, 1], "prob": 1 },
