@@ -6,6 +6,7 @@
       " ": [ [ "zamp_floor", 96 ], [ "zamp_floor_light", 2 ], ["zamp_floor_light_scratched", 1 ], ["zamp_floor_scratched", 1] ],
       ".": [ "zamp_floor_light" ],
       "6": [ "zamp_floor" ],
+      "!": [ "zamp_floor"],
       "l": [ "zamp_floor" ],
       "#": [ "t_carpet_red" ],
       "-": [ [ "zamp_wall", 99 ], [ "zamp_wall_scratched", 1 ] ],
@@ -45,6 +46,7 @@
     "liquids": { "l": { "liquid": "water_clean", "amount": [ 0, 30 ] } },
     "items": {
       "c": [ { "item": "zamp_master_table_office", "chance": 25 } ],
+      "!": [ { "item": "zamp_master_trash", "chance": 1 } ],
       "g": [ { "item": "zamp_master_cupboards", "chance": 90 } ],
       "s": [ { "item": "zamp_master_sink1", "chance":90} ],
       "f": [ { "item": "zamp_master_desk", "chance": 50} ],
