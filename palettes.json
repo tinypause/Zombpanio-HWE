@@ -47,9 +47,9 @@
     "liquids": { "l": { "liquid": "water_clean", "amount": [ 0, 30 ] } },
     "items": {
       "c": [ { "item": "zamp_master_table_office", "chance": 25 } ],
-      "!": [ { "item": "zamp_master_trash", "chance": 1 } ],
+      "!": [ { "item": "zamp_master_trash", "chance": 10 } ],
       "g": [ { "item": "zamp_master_cupboards", "chance": 90 } ],
-      "^": [ { "iten": "zamp_surv", "chance": 1 } ],
+      "^": [ { "iten": "zamp_master_crud", "chance": 5 } ],
       "s": [ { "item": "zamp_master_sink1", "chance":90} ],
       "f": [ { "item": "zamp_master_desk", "chance": 50} ],
       "u": [ { "item": "zamp_master_countertop_kitchen", "chance": 25} ],
