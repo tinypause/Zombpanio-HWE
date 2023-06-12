@@ -140,7 +140,7 @@
     },
     "map_extras": {
       "field": {
-        "chance": 65,
+        "chance": 90,
         "extras": {
           "mx_casings": 50,
           "mx_corpses": 50,
