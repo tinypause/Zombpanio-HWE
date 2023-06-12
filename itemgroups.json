@@ -636,7 +636,7 @@
     "entries": [ { "group": "trash", "count": [ 1, 5 ], "prob": 100 }, { "group": "trash_forest", "count": [ 1, 4 ], "prob": 10 } ]
   },
     {
-    "id": "zamp_master_crud",
+   "id": "zamp_master_crud",
     "type": "item_group",
     "//": "random crud found at random. Some goodies for the lucky Player.",
     "subtype": "distribution",
@@ -647,7 +647,8 @@
                  { "group": "preserved_food", "count": [ 1, 1 ], "prob": 1 },
                  { "group": "cannedfood", "count": [1, 1], "prob": 1 },
                  { "group": "snacks", "count": [1, 1], "prob": 15 },
-                 { "group": "zamp_master_rubble", "count": [1, 2], "prob":15} ] },
+                 { "group": "zamp_master_rubble", "count": [1, 2], "prob":15}, ]
+  },
   {
     "id": "zamp_master_filing",
     "type": "item_group",
