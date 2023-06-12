@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "zampsurv",
+    "category": "books",
+    "copy-from": "survnote",
+    "name": { "str": "player's notes" },
+    "snippet_category": "zamp_writing",
+    "description": "This is some handwritten notes, left by another 'player' like you. Maybe there's something useful to be gleaned from them."
+  },
+  {
+    "type": "GENERIC",
+    "id": "eyedolprint",
+    "category": "books",
+    "copy-from": "survnote",
+    "name": { "str": "office papers" },
+    "snippet_category": "eyedol_print",
+    "description": "Some various papers (ranging from printed emails to handwritten documents) from a company you don't recognize. Most are dry and seemingly mundane company stuff, but there might be some interesting reading here."
+  }
+]

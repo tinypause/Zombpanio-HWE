@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "zombpanioHWE",
+    "name": "Zombpanio: Head West Edition",
+    "authors": [ "tinypause" ],
+    "description": "A take of a combination of a simulation of the hit retro game Zampanio and Cataclysm: Dark Days Ahead. Some limitations occur due to restrictions of linearity, namely being able to go west. The specific ZampanioSim i'm riffing can be found at http://farragofiction.com/",
+    "category": "total_conversion",
+    "dependencies": [ "dda" ]
+  }
+]

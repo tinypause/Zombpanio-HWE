@@ -1,0 +1,52 @@
+[
+  {
+    "type": "overmap_location",
+    "id": "zampchamber",
+    "terrains": [ "zampchamber" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "zampchamber",
+    "name": "Zampanio",
+    "sym": ".",
+    "color": "brown",
+    "see_cost": 20,
+    "spawns": { "group": "GROUP_ZAMP", "population": [ 2, 15 ], "chance": 40 },
+    "extras": "field"
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "zampchamber" ],
+    "object": {
+      "rows": [
+        "----d-------d-------d---",
+        "-   #   - @ #   -  @#   ",
+        "- @     -       -       ",
+        "-     * -       -       ",
+        "d#     #d# *   #d#     #",
+        "- @     -     @ -       ",
+        "-       -       -    @  ",
+        "-  *#   -   #   -   #   ",
+        "----d-------d-------d---",
+        "-   #   - * #   -   #  @",
+        "-       - @     -*      ",
+        "-@      -       -       ",
+        "d#     #d#     #d#     #",
+        "-       -       -       ",
+        "-     * -       -       ",
+        "-*  #   -6  # @ -   #  @",
+        "----d-------d-------d---",
+        "-   #   - @ #  *-   #   ",
+        "-     * -       - @     ",
+        "- @     -       -       ",
+        "d#     #d#      d#     #",
+        "-     @ -       - *     ",
+        "-       -  *  @ -       ",
+        "-   #   -   #   -   #   "
+      ],
+       "palettes": ["zamp_palette"]
+      }
+         
+  }
+]

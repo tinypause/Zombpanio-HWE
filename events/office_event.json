@@ -1,0 +1,38 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_office_eyedol",
+    "object": {
+      "rows": [
+        "----d-------d-------d---",
+        "-fo  # f-fo # of-fo@# of",
+        "-i@    i-i     i-i     i",
+        "-     * -       -       ",
+        "d#     #d# *   #d#     #",
+        "- @     -     @ -       ",
+        "-i     i-i     i-i   @ i",
+        "-fo*#  f-fo # of-fo # of",
+        "----d-------d-------d---",
+        "-fo # of-e  #  g-fo # of",
+        "-i     i-r     g-i     i",
+        "-@      -   b   -       ",
+        "d#     #d# beb #d#     #",
+        "-       -   b   -    @  ",
+        "-i    *i-       -i     i",
+        "-fo # of-*  # @ -fo # of",
+        "----d-------d-------d---",
+        "-fo # of-fo #  f-fo # of",
+        "-i    *i-i     i-i@    i",
+        "- @     -       -       ",
+        "d#     #d#      d#     #",
+        "-     @ -       - *     ",
+        "-i     i-i *  @i-i     i",
+        "-fo # of-fo # of-fo # of"
+      ],
+       "palettes": ["zamp_palette"],
+       "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
+      "//": "I heard they have great internship programs here!"
+    }
+  }
+]

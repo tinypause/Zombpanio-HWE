@@ -1,0 +1,37 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_kitchen_cluster",
+    "object": {
+      "rows": [
+        "----d-------d-------d---",
+        "-  g# s - @ #   -  @#  n",
+        "- @     -       -r      ",
+        "-     * -       -u      ",
+        "d#     #d# *   #d#     #",
+        "- @  u  -     @ -s      ",
+        "-       -r      - c  @  ",
+        "-s *#  n-   #   -   #   ",
+        "----d-------d-------d---",
+        "-r  #   - * #  n- r #  @",
+        "- g     - @     -*      ",
+        "-@      -       -  c    ",
+        "d#     #d#   s #d#     #",
+        "-    r  -   c   -       ",
+        "-s    * -       - g     ",
+        "-*  #   -u  # @ -   # u@",
+        "----d-------d-------d---",
+        "-s  #   - @ # n*-n  # u ",
+        "-     * -      u- @     ",
+        "- @   s -  r    -       ",
+        "d#     #d#   g  d#     #",
+        "- c   @ -       - *   r ",
+        "-       -  *  @ -       ",
+        "-  u#   -   #   -   #   "
+      ],
+       "palettes": ["zamp_palette"],
+       "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
+    }
+  }
+]

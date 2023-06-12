@@ -1,0 +1,37 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_bookshelf_cluster",
+    "object": {
+      "rows": [
+        "----d-------d-------d---",
+        "-   #   -   # p -@  #  *",
+        "-  k    -       -       ",
+        "-       -       - t     ",
+        "d#     #d#     #d#     #",
+        "-       -       -    @  ",
+        "-       -m      -       ",
+        "-   #  t-@  #  t-   #  t",
+        "----d-------d-------d---",
+        "-@  #   - t #   -   #   ",
+        "-       -       -     @ ",
+        "-       -   @   -       ",
+        "d#     #d#     #d#     #",
+        "-       -*      -       ",
+        "-       -     x - k     ",
+        "-*  # t -   #   -   # t ",
+        "----d-------d-------d---",
+        "-   #   -   #   -   #   ",
+        "-       - @     -       ",
+        "-       -       -       ",
+        "d#     #d#      d#     #",
+        "-       -     * -       ",
+        "-t    @ -      n-    t  ",
+        "-   #   -   # t -   #   "
+      ],
+       "palettes": ["zamp_palette"],
+       "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
+    }
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "type": "terrain",
+    "id": "zamp_wall",
+    "name": "Sturdy Wall",
+    "description": "A sturdy wall made of an unknown material. If you strain and squint your eyes, it almost seems like it could be made of any number of things. You have a hard time remembering what it looks like when you aren't looking at it.",
+    "symbol": "#",
+    "color": "brown",
+    "looks_like": "t_wall",
+    "move_cost": 0,
+    "coverage": 100,
+    "roof": "t_flat_roof",
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "BLOCK_WIND" ],
+    "bash": {
+      "str_min": 70,
+      "str_max": 300,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "sound_vol": 8,
+      "sound_fail_vol": 4,
+      "ter_set": "zamp_floor"
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "zamp_wall_scratched",
+    "name": "Sturdy Wall",
+    "description": "A sturdy wall made of an unknown material. If you strain and squint your eyes, it almost seems like it could be made of any number of things. This particular stretch of walls has several eyes scratched into the surface. How odd.",
+    "symbol": "#",
+    "color": "brown",
+    "looks_like": "t_wall",
+    "move_cost": 0,
+    "coverage": 100,
+    "roof": "t_flat_roof",
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL","BLOCK_WIND" ],
+    "bash": {
+      "str_min": 70,
+      "str_max": 300,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "sound_vol": 8,
+      "sound_fail_vol": 4,
+      "ter_set": "zamp_floor"
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "zamp_floor_light",
+    "name": "Sturdy floor, overhead light.",
+    "description": "A sturdy section of floor made out of an unknown material. If you squint your eyes and intensly focus, it almost looks like it's made out of any number of things. Above this particular section of floor though, a single lamp hangs. Though, there's no visible way to turn it off.",
+    "symbol": ".",
+    "color": "brown",
+    "move_cost": 2,
+    "light_emitted": 120,
+    "looks_like": "zamp_floor",
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "FLAT"],
+    "bash": {
+      "str_min": 70,
+      "str_max": 300,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "zamp_floor",
+      "items": [ { "item": "glass_shard", "count": [ 2, 6 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "zamp_floor",
+    "name": "Sturdy Floor",
+    "description": "A sturdy section of floor made out of an unknown material. If you squint your eyes and intensly focus, it almost looks like it's made out of any number of things. You have a hard time remembering what it looks like when you aren't looking at it.",
+    "symbol": ".",
+    "looks_like": "t_floor",
+    "color": "brown",
+    "move_cost": 2,
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "FLAT" ],
+    "bash": {
+      "sound": "SMASH!",
+      "ter_set": "t_thconc_floor",
+      "str_min": 50,
+      "str_max": 400,
+      "str_min_supported": 100,
+      "items": [ { "item": "splinter", "count": [ 2, 8 ] }, { "item": "nail", "charges": [ 6, 13 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "zamp_floor_light_scratched",
+    "name": "faded tile, overhead light",
+    "description": "A sturdy section of floor made out of an unknown material. If you squint your eyes and intensly focus, it almost looks like it's made out of any number of things. This particular stretch of floor has an incredibly tiny section of illegibly carved symbols. The lamp hanging above also seems to have something carved into the lightbulb, somehow.",
+    "symbol": ".",
+    "color": "brown",
+    "move_cost": 2,
+    "light_emitted": 120,
+    "looks_like": "zamp_floor",
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "FLAT" ],
+    "bash": {
+      "str_min": 4,
+      "str_max": 12,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "zamp_floor",
+      "items": [ { "item": "glass_shard", "count": [ 2, 6 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "zamp_floor_scratched",
+    "name": "Sturdy Floor",
+    "description": "A sturdy section of floor made out of an unknown material. If you squint your eyes and intensly focus, it almost looks like it's made out of any number of things. This particular stretch of floor has an incredibly tiny section of illegibly carved words.",
+    "symbol": ".",
+    "looks_like": "zamp_floor",
+    "color": "brown",
+    "move_cost": 2,
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "FLAT" ],
+    "bash": {
+      "sound": "SMASH!",
+      "ter_set": "t_thconc_floor",
+      "str_min": 50,
+      "str_max": 400,
+      "str_min_supported": 100,
+      "items": [ { "item": "splinter", "count": [ 2, 8 ] }, { "item": "nail", "charges": [ 6, 13 ] } ]
+    }
+  }
+    
+      ]
+    }
+  }
+]

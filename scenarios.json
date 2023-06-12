@@ -1,0 +1,23 @@
+[
+  {
+    "type": "scenario",
+    "id": "zamp_enjoyer",
+    "name": "Zampanio Enthusiast",
+    "points": 0,
+    "description": "Welcome to the game! Be careful though, make sure to hydrate regularly. After all, obsession can be a very dangerous thing.",
+    "allowed_locs": [ "sloc_zampanio" ],
+    "start_name": "Zampanio",
+    "flags": [ "LONE_START" ]
+  },
+  {
+    "type": "start_location",
+    "id": "sloc_zampanio",
+    "name": "Zampanio",
+    "terrain": [ "zampchamber" ]
+  },
+  {
+    "type": "SCENARIO_BLACKLIST",
+    "subtype": "whitelist",
+    "scenarios": [ "zamp_enjoyer" ]
+  }
+]

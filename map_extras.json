@@ -1,0 +1,72 @@
+[
+  {
+    "id": "mx_zamp_books",
+    "type": "map_extra",
+    "name": "Bookshelves",
+    "description": "There's a cluster of rooms with unusually many bookshelves.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_bookshelf_cluster" },
+    "sym": "B",
+    "color": "brown",
+    "autonote": true
+  },
+  {
+    "id": "mx_zamp_shelving",
+    "type": "map_extra",
+    "name": "Tool Shelves",
+    "description": "There's a cluster rooms with a high tool-density.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_tool_cluster" },
+    "sym": "T",
+    "color": "brown",
+    "autonote": true
+  },
+  {
+    "id": "mx_zamp_vending",
+    "type": "map_extra",
+    "name": "Vending Machines",
+    "description": "There's a cluster of rooms with a couple of vending machines.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_vending_cluster" },
+   "sym":"V",
+   "color": "brown",
+   "autonote": true
+  },
+  {
+    "id": "mx_zamp_water",
+    "type": "map_extra",
+    "name": "Water Tanks",
+    "description": "There's a cluster of rooms with a couple of standing tanks of freshwater.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_water_cluster" },
+   "sym":"W",
+   "color": "brown",
+   "autonote": true
+  },
+  {
+   "id": "mx_zamp_safe",
+    "type": "map_extra",
+    "name": "Buncha Safes",
+    "description": "There's a cluster of rooms with some locked safes. Might be something good...",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_safe_cluster" },
+   "sym":"S",
+   "color": "brown",
+   "autonote": true
+ },
+   {
+    "id": "mx_zamp_kitchen",
+    "type": "map_extra",
+    "name": "Kitchen Stuff",
+    "description": "There's a cluster of rooms with a couple of kitchen effects.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_kitchen_cluster" },
+   "sym":"K",
+   "color": "brown",
+   "autonote": true
+ },
+   {
+    "id": "mx_office_eyedol",
+    "type": "map_extra",
+    "name": "Offices",
+    "description": "The several rooms here have offices set up in a very orderly fashion. Odd.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_office_eyedol" },
+   "sym":"O",
+   "color": "brown",
+   "autonote": true
+ }
+]
