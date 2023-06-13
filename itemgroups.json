@@ -651,6 +651,20 @@
       { "group": "zamp_surv", "count": [1,1], "prob": 10 }
     ]
   },
+    {
+    "id": "zamp_master_goodies",
+    "type": "item_group",
+     "//": "nice things that can spawn between Big Rooms in random areas. Not meant to have specialty stuff but makes exploring more worthwhile.",
+    "subtype": "distribution",
+    "entries": [ 
+      { "group": "preserved_food", "count": [ 1, 2 ], "prob": 10 },
+      { "group": "cannedfood", "count": [1, 2], "prob": 10 },
+      { "group": "dry_goods", "count": [ 1, 2 ], "prob": 10 },
+      { "group": "tools_home", "count": [1,2], "prob": 10 },
+      { "group": "manuals", "count": [1,1], "prob": 15 },
+      { "group": "weapons", "count": [1,1], "prob": 5 }
+    ] 
+  },
   {
     "id": "zamp_master_filing",
     "type": "item_group",
