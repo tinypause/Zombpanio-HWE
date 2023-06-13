@@ -9,6 +9,7 @@
       "!": [ "zamp_floor"],
       "l": [ "zamp_floor" ],
       "^": [ "zamp_floor" ],
+      "`": ["zamp_floor"],
       "#": [ "t_carpet_red" ],
       "-": [ [ "zamp_wall", 99 ], [ "zamp_wall_scratched", 1 ] ],
       "d": [ [ "t_door_c", 95 ], [ "t_door_o", 5 ] ],
@@ -48,6 +49,7 @@
     "items": {
       "c": [ { "item": "zamp_master_table_office", "chance": 25 } ],
       "!": [ { "item": "zamp_master_trash", "chance": 10 } ],
+      "`"  [ { "item": "zamp_master_goodies", "chance": 20 } ],
       "g": [ { "item": "zamp_master_cupboards", "chance": 90 } ],
       "^": [ { "item": "zamp_master_crud", "chance": 5 } ],
       "s": [ { "item": "zamp_master_sink1", "chance":90} ],
