@@ -16,5 +16,12 @@
     "name": { "str": "office papers" },
     "snippet_category": "eyedol_print",
     "description": "Some various papers (ranging from printed emails to handwritten documents) from a company you don't recognize. Most are dry and seemingly mundane company stuff, but there might be some interesting reading here."
+  },
+    {
+    "id": "art_ring_impossible",
+    "type": "ARMOR",
+    "copy-from": "gold_ring",
+    "name": { "str": "amber ring" },
+    "description": "A band of gold with a smooth piece of amber set into it.  A strange worm is encased in the amber, making a perfect spiral with its sealed body.  You're a nosey little fucker, aren'tcha?."
   }
 ]
