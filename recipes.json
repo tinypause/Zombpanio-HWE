@@ -1,0 +1,18 @@
+[
+{
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "fruithunk",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 0,
+    "time": "25 m",
+    "batch_time_factors": [ 83, 5 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "sweet_fruit_like", 1, "LIST" ] ]
+    ]
+  }
+]

@@ -649,21 +649,47 @@
       { "group": "snacks", "count": [1, 1], "prob": 15 },
       { "group": "zamp_master_rubble", "count": [1, 4], "prob":50} ,
       { "group": "toy_box", "count": [1, 3], "prob": 50 },
-      { "group": "zamp_surv", "count": [1,1], "prob": 5 }
+      { "group": "zamp_surv", "count": [1,1], "prob": 15 }
+    ]
+  },
+    {
+   "id": "zamp_master_random",
+    "type": "item_group",
+    "//": "random crud found at random, but only inside of random furniture that spawns.",
+    "subtype": "distribution",
+    "entries": [ 
+      { "group": "office_mess", "count": [ 2, 3 ], "prob": 30 },
+      { "group": "preserved_food", "count": [ 1, 2 ], "prob": 5 },
+      { "group": "cannedfood", "count": [1, 2], "prob": 5 },
+      { "group": "snacks", "count": [1, 1], "prob": 15 },
+      { "group": "zamp_master_rubble", "count": [1, 4], "prob":30} ,
+      { "group": "toy_box", "count": [1, 3], "prob": 50 },
+      { "group": "zamp_surv", "count": [1,1], "prob": 5 },
+      { "group": "weapons", "count": [1,1], "prob": 5 },     
+      { "group": "manuals", "count": [1,2], "prob": 15 },
+      { "group": "tools_home", "count": [1,2], "prob": 15 },
+      { "group": "table_livingroom", "count": [ 1, 1 ], "prob": 10 },
+      { "group": "magazines", "count": [ 1, 2 ], "prob": 15 },
+      { "group": "bedroom", "count": [ 3, 4 ], "prob": 10 },
+      { "group": "softdrugs", "count": [ 2, 4 ], "prob": 5 },
+      { "group": "home_display_case","count": [ 2, 4 ], "prob": 5 },
+      { "group": "SUS_junk_drawer","count": [ 3, 5 ], "prob": 15 },
+      { "group": "accesories_personal_unisex", "count": [ 2, 3 ],"prob": 5 },
+      { "group": "lab_dorm","count": [ 1, 4 ], "prob": 3 }
     ]
   },
     {
     "id": "zamp_master_goodies",
     "type": "item_group",
-     "//": "nice things that can spawn between Big Rooms in random areas. Not meant to have specialty stuff or be too plentiful but makes exploring more worthwhile.",
+     "//": "nice things that can spawn between Big Rooms in random areas, but on the ground. Not meant to have specialty stuff or be too plentiful but makes exploring more worthwhile.",
     "subtype": "distribution",
     "entries": [ 
       { "group": "preserved_food", "count": [ 1, 2 ], "prob": 10 },
       { "group": "cannedfood", "count": [1, 2], "prob": 10 },
       { "group": "dry_goods", "count": [ 1, 2 ], "prob": 10 },
-      { "group": "tools_home", "count": [1,2], "prob": 15 },
-      { "group": "manuals", "count": [1,1], "prob": 15 },
+      { "group": "tools_home", "count": [1,2], "prob": 5 },
       { "group": "weapons", "count": [1,1], "prob": 5 },
+      { "group": "manuals", "count": [1,1], "prob": 5 },
       { "group": "zamp_surv", "count": [1,1], "prob": 5 }
     ] 
   },
@@ -701,6 +727,21 @@
      ]
    },
   {
+   "id": "zamp_modied_arties",
+   "type":"item_group",
+   "subtype": "distribution",
+   "entries":[
+     {
+        "group": "altered_item",
+        "artifact": {
+          "procgen_id": "altered_object",
+          "rules": { "power_level": 750, "max_attributes": 4, "max_negative_power": -1000, "resonant": true }
+        },
+        "prob": 100
+      }
+    ]
+  },
+  {
     "id": "zamp_master_coat_rack",
     "type": "item_group",
     "//": "Any generic coat rack, for coats and hats.",
@@ -716,6 +757,20 @@
       { "group": "trash_junkyard", "count": [ 1, 3 ], "prob": 50 },
       { "group": "wreckage", "count": [ 1, 3 ], "prob": 25 }
     ]
+  },
+  {
+    "id": "zamp_master_forage",
+    "type": "item_group",
+    "//": "A totally random clump of forage.",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "forage_spring", "count": [ 2, 6 ], "prob": 25 },
+     { "group": "forage_summer", "count": [ 2, 5 ], "prob": 25 },
+     { "group": "forage_autumn", "count": [ 2, 5 ], "prob": 25 },
+     { "group": "forage_winter", "count": [ 2, 5 ], "prob": 25 },
+     { "group": "forage_mushroom", "count": [ 1, 3 ], "prob": 25 }
+    ]
+
   },
   {
     "type": "item_group",
@@ -767,6 +822,17 @@
     "entries": [
       { "group": "zamp_weaponslocker_rare", "count": [ 1, 2 ], "prob": 100 },
       { "group": "zamp_equipmentlocker_rare", "count": [ 1, 2 ], "prob": 120 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "zamp_master_locker_swag",
+    "//": "Cool stuff for epic gamers",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "weapons", "count": [3,5], "prob": 90 },
+      { "group": "archery", "count": [3,4], "prob": 90 },
+      { "group": "museum_armor","count":[2,3], "prob": 25 }
     ]
   },
   {

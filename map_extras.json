@@ -68,5 +68,35 @@
    "sym":"O",
    "color": "brown",
    "autonote": true
+ },
+   {
+    "id": "mx_growth_zamp",
+    "type": "map_extra",
+    "name": "Plants?",
+    "description": "There's a weird amount of plant overgrowth here.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_growth_zamp" },
+   "sym":"P",
+   "color": "brown",
+   "autonote": true
+ },
+   {
+    "id": "mx_artifact_zamp",
+    "type": "map_extra",
+    "name": "Stone",
+    "description": "There's a...dungeon here?",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_artifact_zamp" },
+   "sym":"A",
+   "color": "brown",
+   "autonote": true
+ },
+   {
+    "id": "mx_diary",
+    "type": "map_extra",
+    "name": "       ",
+    "description": "               ",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_diary" },
+   "sym":" ",
+   "color": "brown",
+   "autonote": true
  }
 ]

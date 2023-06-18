@@ -17,11 +17,49 @@
     "snippet_category": "eyedol_print",
     "description": "Some various papers (ranging from printed emails to handwritten documents) from a company you don't recognize. Most are dry and seemingly mundane company stuff, but there might be some interesting reading here."
   },
-    {
+   {
+    "type": "GENERIC",
+    "id": "packed_data",
+    "name": { "str": "loose data" },
+    "looks_like": "soap_flakes",
+    "category": "chems",
+    "weight": "40 g",
+    "color": "pink",
+    "symbol": "%",
+   "description": "Some loose data a quotidian left behind after deeming it non-DANGEROUS that's become a solid substance due to the nature of...wherever you are.\n\nHolding it in your hand, it has the texture of the concept of alternating yes's and no's to create coherent results.",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "plut_cell" ],
+    "volume": "250 ml"
+  },
+  {
+    "id": "fruithunk",
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "name": { "str_sp": "fruit hunks" },
+    "description": "Random fruit, cut up into bitesize hunks. Would be a nice treat for anything that enjoys fruit.",
+    "weight": "60 g",
+    "looks_like": "apple_sugar",
+    "volume": "250 ml",
+    "price": 20,
+    "price_postapoc": 25,
+    "to_hit": -5,
+    "material": [ "fruit" ],
+    "symbol": ";",
+    "calories": 400,
+    "vitamins": [ [ "calcium", 1 ], [ "iron", 7 ] ],
+    "fun": 5,
+    "freezing_point": -274,
+    "color": "brown",
+    "flags": ["BIRD", "NUTRIENT_OVERRIDE" ],
+    "use_action": [ "PETFOOD" ],
+    "petfood": [ "BIRDFOOD" ]
+  },
+   {
     "id": "art_ring_impossible",
     "type": "ARMOR",
     "copy-from": "gold_ring",
-    "name": { "str": "amber ring" },
-    "description": "A band of gold with a smooth piece of amber set into it.  A strange worm is encased in the amber, making a perfect spiral with its sealed body. This isn't yours, why do you have it? Were you looking through someone else's things?"
+    "name": { "str": "impossible ring" },
+    "description": "A band of gold with a smooth piece of some kind of material set into it.  A strange worm is carved into it, making a perfect spiral with its sealed body. This isn't yours, why do you have it? Were you looking through someone else's things?"
   }
 ]

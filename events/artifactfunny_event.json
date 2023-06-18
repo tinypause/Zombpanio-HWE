@@ -1,0 +1,37 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_artifact_zamp",
+    "object": {
+      "rows": [
+        "vvvvZvvvvvvvZvvvvvvvZvvv",
+        "v!B!#!B!v!!!#!!!v>!!#!!>",
+        "v>!!!!!>v>!!!!!>vn!!!!!!",
+        "v!B!!!B!v!!!!!!!vn!!!!!n",
+        "Z#!!!!!#Z#!!!!!#Z#!!!!!#",
+        "v!B!!!B!v!!!!!!!vn!!!!!n",
+        "v>!!!!!>v>!!!!!>vn!!!!!n",
+        "v!B!#!B!v!!!#!!!v>!!#!!>",
+        "vvvvdvvvvvvvdvvvvvvvdvvv",
+        "v!!!#!!!v!!!#!!!v!!!#!!!",
+        "v>!!!!!>v>!!!!!>v>!!o!!>",
+        "v!!!!!!!v!!!a!!!v!!bcb!!",
+        "Z#!!!!!#Z#!!!!!#Z#!bcb!#",
+        "v!!!!!!!v!!8!9!!v!!bcb!!",
+        "v>!!!!!>v>!!!!!>v>!!!!!>",
+        "v!!!#!!!v!!!#!!!v!!!#!!!",
+        "vvvvZvvvvvvvZvvvvvvvZvvv",
+        "v!B!#!B!v!!!#!!!v;!!#!!;",
+        "v>!!!!!>v>!!!!!>v;!!!!!;",
+        "v!B!!!B!v!!!!!!!v;!!!!!;",
+        "Z#!!!!!#Z#!!!!!#Z#!!!!!#",
+        "v!B!!!B!v!!!!!!!v;!!!!!;",
+        "v>!!!!!>v>!!!!!>v;!!!!!;",
+        "v!B!#!B!v!!!#!!!v;!!#!!;"
+      ],
+       "palettes": ["zamp_palette"],
+       "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
+    }
+  }
+]
